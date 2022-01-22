@@ -19,7 +19,7 @@ const dataJSON = dataBuffer.toString()
 const user = JSON.parse(dataJSON)
 
 user.name = 'Brandon'
-user.age = 30
+user.age = 20
 
 //update the file with the new object
 const userJSON  = JSON.stringify(user)
